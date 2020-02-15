@@ -1,28 +1,15 @@
 import React from "react"
+import ToDoItem from "./ToDoItem"
 
 function App() {
-    return ( <
-        div >
-        <
-        input type = "checkbox" / >
-        <
-        p > Placeholder text here < /p> 
-
-        <
-        input type = "checkbox" / >
-        <
-        p > Placeholder text here < /p>
-
-        <
-        input type = "checkbox" / >
-        <
-        p > Placeholder text here < /p>
-
-        <
-        input type = "checkbox" / >
-        <
-        p > Placeholder text here < /p> <
-        /div>
+    return (
+        <div>
+            //instances of ToDoItems
+            <ToDoItem />
+            <ToDoItem />
+            <ToDoItem />
+            <ToDoItem />
+        </div>
 
 
     )
