@@ -3,8 +3,8 @@ import ToDoItem from "./ToDoItem"
 
 function App() {
     return (
-        <div>
-            //instances of ToDoItems
+        <div class="todo-list">
+            {/* instances of ToDoItems */}
             <ToDoItem />
             <ToDoItem />
             <ToDoItem />
